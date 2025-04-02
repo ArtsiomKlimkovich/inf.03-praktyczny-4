@@ -1,0 +1,4 @@
+select imie, miot from swinki where month(data_ur) = 7;
+select DISTINCT data_ur, miot from swinki INNER join rasy on rasy.id=swinki.rasy_id where rasy.id=1;
+select imie, cena, opis from swinki where rasy_id=1;
+select rasa from rasy;
